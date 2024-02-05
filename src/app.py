@@ -35,8 +35,7 @@ opt_log = [{'label': 'Activée', 'value': True}, {'label': 'Désactivée', 'valu
 app.layout = html.Div([
     
     # Titre de l'application
-    html.H1("Gapminder dataset : Checklist & Slider"),
-    #html.H1("Gapminder dataset : Checklist & Slider", style={"color":"red"}),
+    html.H1("Gapminder dataset : Checklist & Slider", style={"color":"red"}),
     
     # Dropdown permettant de selectionner les continents
     html.H4("Sélection des continents :"),
